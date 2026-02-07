@@ -1,0 +1,827 @@
+/* * 
+* CSS VARIABLES 
+* Gerado a partir das especificações fornecidas
+* */ 
+
+
+/*Face font*/
+/* ================= IBM Plex Mono ================= */
+
+/* Thin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ExtraLight */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Light */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Regular */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Medium */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('src/assets/fonts/IBM_Plex_Mono/IBMPlexMono-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ================= IBM Plex Sans ================= */
+
+/* Thin */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ExtraLight */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Light */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Regular */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Medium */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('src/assets/fonts/IBM_Plex_Sans/IBMPlexSans-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+:root {
+  /* Typography */
+  --font-family-sans: "IBM Plex Sans", sans-serif;
+  --font-family-mono: "IBM Plex Mono", monospace;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --font-size-xxxl: 76.29px;
+  --font-size-xxl: 61.04px;
+  --font-size-xl: 48.83px;
+  --font-size-lg: 39.06px;
+  --font-size-md: 31.25px;
+  --font-size-base: 20px;
+  --font-size-sm: 16px;
+  --font-size-xs: 14px;
+
+  /* Color */
+  --color-primary-light: #ffdd53;
+  --color-primary-base: #fdca00;
+  --color-primary-dark: #bf9a06;
+  --color-secondary-light: #686f69;
+  --color-secondary-base: #383c39;
+  --color-secondary-dark: #2a2d2b;
+  --color-tertiary-light: #a1a29f;
+  --color-tertiary-base: #82837f;
+  --color-tertiary-dark: #62625f;
+  --color-neutral-light: #fafafa;
+  --color-neutral-base: #e7e7e7;
+  --color-neutral-dark: #adadad;
+  --color-text-main: #1a1a1a; /* Cor de texto padrão escura para contraste */
+
+  /* Spacing */
+  --space-8: 8px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-56: 56px;
+  --space-64: 64px;
+  --space-72: 72px;
+  --space-80: 80px;
+}
+
+/* RESET & BASE STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-base);
+  color: var(--color-secondary-base);
+  background-color: var(--color-neutral-light);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+/* HEADER */
+.header {
+  background-color: var(
+    --color-neutral-base
+  ); /* Ajustado para parecer o cinza do topo da imagem */
+  padding: var(--space-24) var(--space-80);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-list {
+  display: flex;
+  gap: var(--space-40);
+}
+
+.nav-link {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-sm);
+  color: var(--color-secondary-base);
+  position: relative;
+  padding-bottom: 4px;
+}
+
+/* Item ativo (simulando o "About me" amarelo na imagem) */
+.nav-link.active {
+  color: var(
+    --color-primary-dark
+  ); /* Usando dark para melhor leitura sobre cinza */
+  font-weight: var(--font-weight-bold);
+}
+
+/* Animação Sutil do Menu */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-primary-base);
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: var(--color-secondary-dark);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.social-icons {
+  display: flex;
+  gap: var(--space-24);
+  align-items: center;
+}
+
+.social-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--color-secondary-base);
+  transition:
+    fill 0.2s ease,
+    transform 0.2s ease;
+}
+
+.social-icon:hover svg {
+  fill: var(--color-primary-dark);
+  transform: translateY(-2px);
+}
+
+/* MAIN LAYOUT */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: var(--space-80);
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Split 50/50 */
+  gap: var(--space-64);
+  align-items: start;
+  min-height: calc(100vh - 80px);
+}
+
+/* LEFT COLUMN (Hero) */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-64);
+}
+
+.hero-title-group {
+  font-family: var(--font-family-mono);
+  color: var(--color-secondary-base);
+  line-height: 1.2;
+}
+
+.hero-main-text {
+  font-size: var(--font-size-xxl); /* Ajuste visual baseada na imagem */
+  font-weight: var(--font-weight-light);
+  margin-bottom: var(--space-32);
+  display: block;
+}
+
+.hero-sub-text {
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-weight-light);
+  display: block;
+}
+
+.highlight {
+  color: var(--color-primary-base);
+  font-weight: var(--font-weight-bold);
+  /* Opcional: Adicionar um text-shadow sutil se o contraste for baixo no monitor */
+}
+
+.hero-image-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-circle {
+  width: 350px;
+  height: 350px;
+  
+  background-color: #fff; /* Cinza claro do círculo */
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+
+.profile-circle img {
+  width: 100%;
+  height: auto;
+  
+  object-fit: contain;
+  /* Placeholder styling se a imagem não carregar */
+  background-color: #ddd;
+}
+
+/* RIGHT COLUMN (Content) */
+.content-section {
+  padding-top: var(--space-16);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-64);
+}
+
+.intro-text {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-md);
+  color: var(--color-secondary-base);
+  margin-bottom: var(--space-16);
+}
+
+.job-section {
+  margin-bottom: var(--space-32);
+}
+
+.job-title {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-md);
+  color: var(--color-primary-base);
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-24);
+  letter-spacing: 1px;
+}
+
+.job-description {
+  list-style-type: disc;
+  padding-left: var(--space-24);
+  color: var(--color-secondary-base);
+}
+
+.job-description li {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-base);
+  margin-bottom: var(--space-16);
+  line-height: 1.6;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 1024px) {
+  :root {
+    --font-size-xxl: 48px;
+  }
+  .header {
+    padding: var(--space-16) var(--space-32);
+  }
+  .container {
+    padding: var(--space-40);
+    gap: var(--space-40);
+  }
+  .profile-circle {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr; /* Stack layout */
+    padding: var(--space-24);
+  }
+
+  .header {
+    flex-direction: column;
+    gap: var(--space-16);
+    padding: var(--space-16);
+  }
+
+  .nav-list {
+    gap: var(--space-16);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-main-text,
+  .hero-sub-text {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .hero-image-wrapper {
+    margin-bottom: var(--space-32);
+  }
+
+  .intro-text {
+    text-align: center;
+  }
+}
+
+
+  /* CONTAINER GENÉRICO (Layout Wrapper) */
+        .container-education {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: var(--space-80);
+            min-height: calc(100vh - 80px);
+        }
+
+
+ /* Page Title */
+        .page-title {
+            font-family: var(--font-family-mono);
+            font-size: var(--font-size-xxl);
+            font-weight: var(--font-weight-light); /* Thin font look */
+            text-align: center;
+            margin-bottom: var(--space-80);
+            letter-spacing: -1px;
+            color: var(--color-secondary-base);
+        }
+
+        /* Grid Layout for Cards */
+        .education-grid {
+            display: grid;
+            /* 3 Colunas como na imagem, com fallback responsivo */
+            grid-template-columns: repeat(3, 1fr); 
+            column-gap: var(--space-40);
+            row-gap: var(--space-64);
+        }
+
+        /* Card Styles */
+        .education-card {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-16);
+        }
+
+        /* Header do Card (Bolinha amarela + Título) */
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-8);
+            margin-bottom: var(--space-8);
+        }
+
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            background-color: var(--color-primary-base); /* Amarelo */
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .card-title {
+            font-family: var(--font-family-sans);
+            font-size: var(--font-size-base); /* Tamanho próximo da imagem */
+            font-weight: 700; /* Bold */
+            color: var(--color-secondary-base);
+        }
+
+        /* Definição de Listas de Descrição (DL/DT/DD) */
+        .meta-list {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-16);
+        }
+
+        .meta-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .meta-label {
+            font-size: var(--font-size-xs);
+            font-weight: 700; /* Bold label */
+            color: var(--color-secondary-base);
+            margin-bottom: 2px;
+        }
+
+        .meta-value {
+            font-size: var(--font-size-sm);
+            font-weight: 400;
+            color: var(--color-secondary-base);
+            margin-left: 0; /* Reset default DD margin */
+        }
+
+        /* RESPONSIVENESS */
+        @media (max-width: 1024px) {
+            .page-title { font-size: 48px; }
+            .education-grid { grid-template-columns: repeat(2, 1fr); }
+            .container { padding: var(--space-40); }
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                padding: var(--space-16);
+                flex-direction: column;
+                gap: var(--space-16);
+            }
+            .nav-list { gap: var(--space-16); }
+            
+            .container { padding: var(--space-24); }
+            
+            .page-title { 
+                font-size: 32px; 
+                margin-bottom: var(--space-40);
+            }
+            
+            .education-grid { 
+                grid-template-columns: 1fr; /* Stack layout */
+                row-gap: var(--space-40);
+            }
+        }
+
+
+         /* CONTAINER (Layout Wrapper) */
+        .container-experiences {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: var(--space-80);
+            min-height: calc(100vh - 80px);
+        }
+
+        /* * EXPERIENCES PAGE SPECIFIC STYLES */
+        
+        .page-title {
+            font-family: var(--font-family-mono);
+            font-size: var(--font-size-xxl);
+            font-weight: var(--font-weight-light);
+            text-align: center;
+            margin-bottom: var(--space-80);
+            letter-spacing: -1px;
+            color: var(--color-secondary-base);
+        }
+
+        /* Timeline Structure */
+        .timeline-container {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Linha Vertical Tracejada de Fundo */
+        .timeline-line {
+            position: absolute;
+            left: 28%; /* Ajuste visual para alinhar com os pontos */
+            top: 10px;
+            bottom: 0;
+            width: 1px;
+            border-left: 1px dashed var(--color-neutral-dark);
+            z-index: 0;
+        }
+
+        .timeline-item {
+            display: grid;
+            /* Col 1: Data/Empresa | Col 2: Bolinha | Col 3: Conteúdo */
+            grid-template-columns: 28% 40px 1fr; 
+            margin-bottom: var(--space-64);
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Coluna Esquerda: Data e Empresa */
+        .timeline-meta {
+            text-align: right;
+            padding-right: var(--space-24);
+            font-size: var(--font-size-sm);
+        }
+
+        .timeline-date {
+            color: var(--color-primary-base);
+            font-weight: var(--font-weight-bold);
+        }
+
+        .timeline-company {
+            font-weight: var(--font-weight-bold);
+            color: var(--color-secondary-base);
+            margin-left: 4px;
+        }
+
+        /* Coluna Central: Ponto Amarelo */
+        .timeline-marker {
+            display: flex;
+            justify-content: center;
+            padding-top: 6px; /* Alinhamento óptico com a primeira linha de texto */
+        }
+
+        .timeline-dot {
+            width: 12px;
+            height: 12px;
+            background-color: var(--color-primary-base);
+            border-radius: 50%;
+            box-shadow: 0 0 0 4px var(--color-neutral-light); /* Borda falsa para limpar a linha tracejada atrás */
+        }
+
+        /* Coluna Direita: Conteúdo */
+        .timeline-content {
+            padding-left: var(--space-16);
+            padding-bottom: var(--space-16);
+        }
+
+        .timeline-role {
+            font-size: var(--font-size-xs);
+            font-weight: var(--font-weight-bold);
+            margin-bottom: var(--space-8);
+            color: var(--color-secondary-base);
+        }
+
+        .timeline-desc {
+            font-size: var(--font-size-xs);
+            margin-bottom: var(--space-16);
+            color: var(--color-secondary-base);
+            line-height: 1.6;
+        }
+
+        .timeline-impacts-label {
+            font-size: 10px; /* Bem pequeno conforme imagem */
+            font-weight: var(--font-weight-bold);
+            text-transform: uppercase;
+            margin-bottom: 4px;
+            display: block;
+            color: var(--color-secondary-base);
+        }
+
+        .timeline-impacts-text {
+            font-size: var(--font-size-xs);
+            color: var(--color-secondary-base);
+            line-height: 1.6;
+        }
+
+        /* RESPONSIVENESS */
+        @media (max-width: 1024px) {
+            .page-title { font-size: 48px; }
+            .timeline-line { left: 24px; } /* Move linha para esquerda */
+            
+            .timeline-item {
+                grid-template-columns: 60px 1fr; /* Remove coluna da data, mantém icone + conteudo */
+                column-gap: 0;
+            }
+
+            .timeline-meta {
+                grid-column: 2; /* Data move para dentro do conteúdo */
+                text-align: left;
+                padding-right: 0;
+                margin-bottom: var(--space-8);
+                padding-left: var(--space-16);
+            }
+            
+            .timeline-marker {
+                grid-column: 1;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container { padding: var(--space-24); }
+            .page-title { font-size: 32px; margin-bottom: var(--space-40); }
+            
+            .header {
+                padding: var(--space-16);
+                flex-direction: column;
+                gap: var(--space-16);
+            }
+            .nav-list { gap: var(--space-16); }
+
+            .timeline-line { display: none; } /* Remove linha em telas muito pequenas para limpar layout */
+            
+            .timeline-item {
+                display: flex;
+                flex-direction: column;
+                border-left: 2px solid var(--color-primary-base); /* Linha simples lateral */
+                padding-left: var(--space-24);
+                margin-left: var(--space-8);
+            }
+
+            .timeline-marker { display: none; }
+            .timeline-meta { padding-left: 0; text-align: left; }
+            .timeline-content { padding-left: 0; }
+        }

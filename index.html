@@ -1,16 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projeto com Vite</title>
+        <title>Erich | UX Designer & Web Developer</title>
+    <link rel="stylesheet" href="./src/styles.scss">
   </head>
   <body>
-  {{> header}}
+    {{> header}}
 
-    <main>
-      <h1>Conteúdo principal</h1>
-      <p>Essa é a página inicial.</p>
+    <main class="container">
+      <section class="hero-section" aria-labelledby="hero-heading">
+        <h1 id="hero-heading" class="hero-title-group">
+          <span class="hero-main-text">The design<br />is done...</span>
+          <span class="hero-sub-text"
+            >When the problem<br /><span class="highlight"
+              >has gone.</span
+            ></span
+          >
+        </h1>
+
+        <div class="hero-image-wrapper">
+          <figure class="profile-circle">
+            <img
+              src="./src/assets/images/erich-cartoon.png"
+              alt="A cartoon ilustration of Erich, a white male man around 30's bald he uses glasses and wears a yellow jacket with a stripped t-shirt, smiling, happy to see you here."
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <p class="intro-text">
+          Hello, my name is Erich<br />
+          and this is what I do
+        </p>
+
+        <article class="job-section">
+          <h2 class="job-title">UX Designer</h2>
+          <ul class="job-description">
+            <li>
+              Conducting user interviews and gathering functional requirements
+              to guide product decisions.
+            </li>
+            <li>
+              Applying research insights to improve usability and solve real
+              user pain points.
+            </li>
+            <li>
+              Leading design sprints and documenting processes to align teams
+              and streamline solutions.
+            </li>
+            <li>
+              Designing user-centered wireframes and interfaces with tools like
+              Figma.
+            </li>
+          </ul>
+        </article>
+
+        <article class="job-section">
+          <h2 class="job-title">Front-End Developer</h2>
+          <ul class="job-description">
+            <li>
+              Building scalable, responsive web applications using ReactJS and
+              Angular.
+            </li>
+            <li>
+              Using advanced CSS techniques to meet accessibility standards
+              (WCAG 2.1 Level AA).
+            </li>
+            <li>
+              Integrating front-end solutions with APIs and databases for
+              seamless performance.
+            </li>
+          </ul>
+        </article>
+      </section>
     </main>
 
     {{> footer}}

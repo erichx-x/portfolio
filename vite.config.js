@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import { resolve } from 'path';
 import handlebars from 'vite-plugin-handlebars';
 
 export default defineConfig({
@@ -14,10 +15,16 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     minify: 'esbuild',
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        education: resolve(__dirname, 'src/pages/education.html')
+      }
+    },
   },
   plugins: [
     handlebars({
-      partialDirectory: 'src/partials',
+      partialDirectory: 'src/components',
     }),
     // vue(),
   ],
