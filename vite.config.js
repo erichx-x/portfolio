@@ -18,7 +18,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        education: resolve(__dirname, 'src/pages/education.html')
+        education: resolve(__dirname, 'src/pages/education.html'),
+        experiences: resolve(__dirname, 'src/pages/experiences.html')
       }
     },
   },
